@@ -34,12 +34,15 @@
 
     <header>
 
+        <!-- navbar start here-------------------------------------------------------------- -->
         <nav class="w-11/12 mx-auto">
 
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 py-5">
 
                 <div class="navbar-start">
-                    <img class="w-32" src="./images/logo.svg" alt="">
+                    <a href="#">
+                        <img class="w-16 md:w-32" src="./images/logo.svg" alt="">
+                    </a>
                 </div>
 
                 <div class="navbar-center hidden lg:flex">
@@ -55,12 +58,12 @@
                 <div class="navbar-end">
 
                     <div class="flex items-center justify-between gap-3 mr-4">
-                        <h4 class="text-[#6A9739] font-bold text-xl">$10.00</h4>
+                        <a href="#" class="text-[#6A9739] font-bold text-xl">$10.00</a>
                         <i class="fa-solid fa-cart-shopping text-[#6A9739]"></i>
                         <i class="fa-solid fa-user text-[#6A9739]"></i>
                     </div>
 
-                    <div class="dropdown">
+                    <div class="dropdown ">
                         <div tabindex="0" role="button" class="btn btn-success lg:hidden">
                             <i class="fa-solid fa-bars"></i>
                         </div>
@@ -80,6 +83,41 @@
 
 
     </header>
+
+    <main>
+
+        <!-- banner start here------------------------------------------------------------- -->
+        <section class="h-dvh bg-[url(/images/leaf01.png)] bg-no-repeat bg-right-bottom mb-32">
+
+            <div class="h-full bg-[#f8f6f3] opacity-90">
+
+                <div class="w-9/12 mx-auto flex flex-col md:flex-row gap-8 justify-between items-center pt-24">
+
+                    <div class="flex-1 ">
+                        <img class="w-full" src="./images/bannerbg.png" alt="">
+                    </div>
+
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-xl font-semibold">Best Quality Products</h3>
+                        <h1 class="text-4xl lg:text-6xl font-bold">
+                            Join The Organic Movement!
+                        </h1>
+                        <p class="text-[#80817F] text-md font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <button class="bg-[#6A9739] text-white px-6 py-3 rounded-lg">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span>Shop Now</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+        
+    </main>
 
 </body>
 
